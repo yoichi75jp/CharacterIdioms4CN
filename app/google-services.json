@@ -90,6 +90,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "500599984017-n58nsn01d65eb6ob39107iqh7vkpd18k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aufthesis.characteridioms4cn",
+            "certificate_hash": "4cc88f292564814ea4376920d72ffcb94616a7f0"
+          }
+        },
+        {
           "client_id": "500599984017-oosc1of3ahla7sga1k6gmbg5apc1bkfk.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -104,8 +112,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500599984017-oosc1of3ahla7sga1k6gmbg5apc1bkfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
