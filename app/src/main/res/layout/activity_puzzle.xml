@@ -4,8 +4,6 @@
     android:id="@+id/activity_puzzle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.aufthesis.characteridioms4cn.PuzzleActivity">
@@ -19,6 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:gravity="top">
 
 
@@ -60,6 +60,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
         android:layout_gravity="center_vertical">
 
         <FrameLayout
@@ -328,6 +330,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
@@ -386,6 +390,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:gravity="center">
             <Button
                 android:id="@+id/put_back"
@@ -429,7 +435,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             ads:adUnitId="@string/adUnitId"
-            ads:adSize="BANNER" />
+            ads:adSize="SMART_BANNER" />
 
     </LinearLayout>
     </ScrollView>

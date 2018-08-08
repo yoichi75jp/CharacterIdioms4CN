@@ -335,7 +335,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 editor.putBoolean(getString(R.string.review_done), true);
                 editor.apply();
                 Intent googlePlayIntent = new Intent(Intent.ACTION_VIEW);
-                googlePlayIntent.setData(Uri.parse("market://details?id=com.aufthesis.characteridiomatic4"));
+                googlePlayIntent.setData(Uri.parse("market://details?id=com.aufthesis.characteridioms4cn"));
                 startActivity(googlePlayIntent);
             }
         });
